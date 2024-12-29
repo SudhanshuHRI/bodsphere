@@ -23,14 +23,52 @@
 }
 .counter-container{
  
-  padding: 50px;
+  padding: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .counter-container >div>h1{
   font-size: 50px;
 }
-.program-container{
-  border:1px solid black;
+
+.programsContainer{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.programsContainer > div{
+  padding: 30px;
+ 
+  text-align: center;
+  margin:20px;
+  border-radius: 20px;
+  background-color: rgb(233, 230, 230);
+  box-shadow: 5px 5px 5px 0px lightgray; 
+ 
+}
+.program-header{
+  place-items: center;
+  padding:70px 0px;
+}
+.accreditationContainer{
+  
+  display: flex;
+}
+.accreditationContainer{
+  padding-top: 30px;
+ 
+}
+.accreditionLeftContainer{
+  padding: 70px;
+  
+
+}
+.customButton{
+  
+  padding:7px 15px;
+  border-radius: 50px;
+  background-color: white;
 }

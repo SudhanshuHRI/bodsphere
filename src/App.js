@@ -41,6 +41,7 @@ function App() {
               Yoga Teacher Trainings, classes, meditation,pranayama,music ,
               Philosophy and more.
             </p>
+            <p><i>Everything under $10.</i></p>
           </div>
         </div>
         <div className="counter-container">
@@ -57,23 +58,72 @@ function App() {
             <p>Members</p>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div className="program-container">
-          <h1>Discover Your Yoga Path</h1>
-          <p>Join our community and transform your yoga practice today.</p>
-          <div>
+          <div className="program-header">
+            <h1>Discover Your Yoga Path</h1>
+            <p>Join our community and transform your yoga practice today.</p>
+          </div>
+
+          <div className="programsContainer">
             <div>
-              <p>Yoga Teacher Trainings</p>
-              <p>Become Certified Youga Teachers and transform your practice with world's most accissible & affordable programs.</p>
+              <p>
+                <b>Yoga Teacher Trainings</b>
+              </p>
+              <p>
+                Become Certified Youga Teachers and transform your practice with
+                world's most accissible & affordable programs.
+              </p>
             </div>
             <div>
-              <p>Yoga Classes</p>
-              <p> sdfdsf</p>
-              </div>
-            <div>div1</div>
-            <div>div1</div>
+              <p>
+                <b>Yoga Classes</b>
+              </p>
+              <p>
+                {" "}
+                Join revitalizing Yoga classes of Yin, Hatha, Ashtanga, Vinyasa
+                and a lot more , to enhance your well being.
+              </p>
+            </div>
+            <div>
+              <p>
+                <b>Calm Music</b>
+              </p>
+              <p>
+                {" "}
+                Experience tranquality with our calming music , perfect for
+                relaxation and mindfullness
+              </p>
+            </div>
+            <div>
+              <p>
+                <b>Pranayam and Maditation</b>
+              </p>
+              <p>
+                Explore the power of breath and enhance your self awareness and
+                inner peace.
+              </p>
+            </div>
           </div>
         </div>
+        <div className="accreditationContainer">
+          <div className="w-50  accreditionLeftContainer">
+            <p className="h3"><b>Get Internationally accredited by Bodsphere, from the comfort of your home</b></p>
+            <p className="pt-5 pb-5">Join  the Bodsphere community and take the first step towards joining the world's biggest community of yoga schools and teachers that represent hight quality, safe , affordable, accissible and equitable yoga.</p>
+            <button className="customButton">Get Accredited</button>
+          </div>
+          <div className="w-50  d-flex justify-content-center align-items-center">
+            <img src="/img1.png"/>
+          </div>
+        </div>
+        {/* <div className="sliderContainer1">
+          <p>Meet Your Instructor</p>
+          <p>We work with the finest professinals to ensure you feel the best.</p>
+          <div>
+
+          </div>
+
+        </div> */}
       </div>
     </div>
   );
