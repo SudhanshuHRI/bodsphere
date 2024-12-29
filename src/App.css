@@ -72,3 +72,10 @@
   border-radius: 50px;
   background-color: white;
 }
+
+.sliderContainer1{
+  border:1px solid black;
+}
+.sliderContainer1>div{
+  border:1px solid black;
+}
