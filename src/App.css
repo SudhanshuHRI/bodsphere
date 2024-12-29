@@ -1,0 +1,36 @@
+.App{
+  max-width: 100%;
+  font-family: cursive;
+}
+.App >div{
+  padding: 0 !important;
+}
+.menu_items_container{
+  margin-left: 400px;
+}
+.banner-container{
+ 
+  min-height: 700px;
+  background-image: url('../public/banner.jpg');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+.banner-container > div{
+  padding: 60px;
+}
+.counter-container{
+ 
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter-container >div>h1{
+  font-size: 50px;
+}
+.program-container{
+  border:1px solid black;
+}
